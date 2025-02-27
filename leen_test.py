@@ -19,7 +19,7 @@ backup_zip = "my_saved_model_backup.zip"
 if not os.path.exists(model_path):
     print("Model not found. Training...")
     
-    # Run the training script (your main code)
+    # Run the training script ( main code)
     subprocess.run(["python", "main.py"], check=True)
 
 # Step 2: Unzip the saved model if necessary

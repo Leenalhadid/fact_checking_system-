@@ -12,13 +12,13 @@ Before starting, ensure you have:
 ✔ Python 3.8 or higher installed (Check using python --version)
 
 ## 🛠 Installation
-### **1 Clone the Repository**
+### ** Clone the Repository**
 git clone https://github.com/Leenalhadid/fact_checking_system.git
 
-### **Navigate to the Project Directory**
+### **Navigate to the Project Directory
 cd fact_checking_system
 
-### **install dependencies**
+### **install dependencies
 
 pip install torch transformers datasets evaluate pandas scikit-learn streamlit
 
@@ -26,5 +26,5 @@ pip install torch transformers datasets evaluate pandas scikit-learn streamlit
 ## **to classify a statement from the terminal**:
 python leen_test.py --query "your statement"
 
-## **Web-Based UI (Streamlit)**
+## **Web-Based UI (Streamlit)
 streamlit run leen_test.py

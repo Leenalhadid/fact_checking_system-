@@ -61,7 +61,7 @@ def convert_data():
     df_train = pd.read_csv("train.tsv", sep="\t")
     df_valid = pd.read_csv("valid.tsv", sep="\t")
     df_test = pd.read_csv("test.tsv", sep="\t")
-
+    # add the defined columns to the data 
     df_train.columns = columns
     df_valid.columns = columns
     df_test.columns = columns
@@ -80,9 +80,9 @@ def convert_data():
     df_train = df_train.fillna(0)
     df_valid = df_train.fillna(0)
     df_test = df_test.fillna(0)
-    # Map labels to numerical values
+    # fillup missing values 
 
-
+    
     df_train["label"] = df_train["label"].str.lower().map(label_map).astype(int)
     df_valid["label"] = df_valid["label"].str.lower().map(label_map).astype(int)
     df_test["label"] = df_test["label"].str.lower().map(label_map).astype(int)

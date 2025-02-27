@@ -10,7 +10,8 @@ This repository contains a **fact-checking model** trained on the **LIAR dataset
 ## 🛠 Installation
 ### **1️⃣ Clone the Repository**
 git clone https://github.com/Leenalhadid/fact_checking_system.git
-cd fact_checking_system```
+
+cd fact_checking_system
 
 ### **1️⃣install dependencies**
 
